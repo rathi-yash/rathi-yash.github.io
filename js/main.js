@@ -8,8 +8,8 @@ let e_is_shown = false;
 document.getElementById('iemail').addEventListener("click", function(){
     let demail = document.getElementById('demail');
 
-    let msg1 = "pbagnpglnfuenhgu@tznvy.pbz"; 
-    let msg2 = "lenhgu2@ohssbyn.rqh";       
+    let msg1 = "pbagnpglnfuenguv@tznvy.pbz"; 
+    let msg2 = "lenguv2@ohssnyb.rqh"; 
 
     demail.innerHTML = rot13(msg1) + "<br>" + rot13(msg2);
 
