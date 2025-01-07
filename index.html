@@ -145,74 +145,89 @@
 
                 <div class="skills-container">
                     <div class="tab-buttons">
-                        <button class="tab-button active" data-tab="ml-ds">Machine Learning & Data Science</button>
-                        <button class="tab-button" data-tab="programming">Programming</button>
-                        <button class="tab-button" data-tab="dev-tools">Development Tools</button>
-                        <button class="tab-button" data-tab="cloud">Cloud & Deployment</button>
+                        <button class="tab-button active" data-tab="frontend">Frontend</button>
+                        <button class="tab-button" data-tab="backend">Backend</button>
+                        <button class="tab-button" data-tab="devops">DevOps</button>
+                        <button class="tab-button" data-tab="automation">Automation</button>
+                        <button class="tab-button" data-tab="machine-learning">Machine Learning</button>
                         <button class="tab-button" data-tab="other">Other</button>
                     </div>
-            
-                    <div id="ml-ds" class="tab-content active">
+                
+                    <div id="frontend" class="tab-content active">
                         <div class="skills-section">
-                            <!-- <h3>Machine Learning & Data Science</h3> -->
                             <div class="skills">
-                                <div class="skill-item"><span>Large Language Models:</span> Transformers (Hugging Face), Langchain, Langgraph, LambdaIndex, crewAI</div>
-                                <div class="skill-item"><span>LLM APIs:</span> OpenAI API, Google AI studio API</div>
-                                <div class="skill-item"><span>Vector Databases:</span> Pinecone, Chroma</div>
-                                <div class="skill-item"><span>Machine Learning:</span> PyTorch, TensorFlow, Scikit-learn, XGBoost</div>
-                                <div class="skill-item"><span>Natural Language Processing:</span> NLTK, SpaCy</div>
-                                <div class="skill-item"><span>Computer Vision:</span> OpenCV, YOLO, Hugging Face Diffusers</div>
-                                <div class="skill-item"><span>Data Analysis:</span> NumPy, Pandas, Hugging Face Datasets, PySpark</div>
+                                <div class="skill-item"><span>Languages:</span> HTML5, CSS3, JavaScript (ES6+), TypeScript</div>
+                                <div class="skill-item"><span>Frameworks/Libraries:</span> React, Vue.js, Angular</div>
+                                <div class="skill-item"><span>State Management:</span> Redux, Vuex</div>
+                                <div class="skill-item"><span>Styling:</span> Styled Components, Tailwind CSS</div>
+                                <div class="skill-item"><span>Build Tools:</span> Webpack, Babel</div>
+                                <div class="skill-item"><span>Testing:</span> Jest, React Testing Library</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div id="backend" class="tab-content">
+                        <div class="skills-section">
+                            <div class="skills">
+                                <div class="skill-item"><span>Languages:</span> Python, Node.js, Java, Groovy</div>
+                                <div class="skill-item"><span>Frameworks:</span> Express.js, Django, Flask, Spring Boot</div>
                                 <div class="skill-item"><span>Databases:</span> PostgreSQL, MySQL, MongoDB, Firebase</div>
-                                <div class="skill-item"><span>Big Data:</span> Apache Spark, Hadoop</div>
-                                <div class="skill-item"><span>Data Visualization:</span> Matplotlib, Seaborn, Plotly, Power BI, Tableau, Google Looker Studio</div>
-                                <div class="skill-item"><span>Advanced ML:</span> Reinforcement Learning (Stable Baselines 3, Ray RL)</div>
+                                <div class="skill-item"><span>API Design:</span> RESTful APIs, GraphQL</div>
                             </div>
                         </div>
                     </div>
-            
-                    <div id="programming" class="tab-content">
+                
+                    <div id="devops" class="tab-content">
                         <div class="skills-section">
-                            <!-- <h3>Programming</h3> -->
-                            <div class="skills">
-                                <div class="skill-item"><span>Languages:</span> Python, C++, Scala</div>
-                                <div class="skill-item"><span>Database:</span> PostgreSQL, MySQL, Firebase, MongoDB</div>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div id="dev-tools" class="tab-content">
-                        <div class="skills-section">
-                            <!-- <h3>Development Tools</h3> -->
                             <div class="skills">
                                 <div class="skill-item"><span>Version Control:</span> Git, GitHub</div>
-                                <div class="skill-item"><span>IDEs:</span> VS Code, Jupyter Notebooks, PyCharm</div>
-                                <div class="skill-item"><span>Containerization:</span> Docker</div>
+                                <div class="skill-item"><span>CI/CD:</span> Jenkins, GitLab CI, GitHub Actions</div>
+                                <div class="skill-item"><span>Containerization:</span> Docker, Kubernetes</div>
+                                <div class="skill-item"><span>Cloud Platforms:</span> AWS, Google Cloud Platform, Azure</div>
+                                <div class="skill-item"><span>Infrastructure as Code:</span> Terraform, Ansible</div>
+                                <div class="skill-item"><span>Monitoring:</span> Prometheus, Grafana</div>
                             </div>
                         </div>
                     </div>
-            
-                    <div id="cloud" class="tab-content">
+                
+                    <div id="automation" class="tab-content">
                         <div class="skills-section">
-                            <!-- <h3>Cloud & Deployment</h3> -->
                             <div class="skills">
-                                <div class="skill-item"><span>Platforms:</span> Google Cloud Platform, AWS (basic)</div>
-                                <div class="skill-item"><span>MLOps:</span> Weights & Bias, MLflow, Neptune</div>
+                                <div class="skill-item"><span>Scripting:</span> Python, Bash</div>
+                                <div class="skill-item"><span>Testing Automation:</span> Selenium, Cypress</div>
+                                <div class="skill-item"><span>Task Runners:</span> Gulp, npm scripts</div>
                             </div>
                         </div>
                     </div>
-            
+                
+                    <div id="machine-learning" class="tab-content">
+                        <div class="skills-section">
+                            <div class="skills">
+                                <div class="skill-item"><span>Large Language Models:</span> Transformers (Hugging Face)</div>
+                                <div class="skill-item"><span>LLM APIs:</span> OpenAI API, Google AI studio API</div>
+                                <div class="skill-item"><span>Machine Learning:</span> PyTorch, TensorFlow, Scikit-learn</div>
+                                <div class="skill-item"><span>Natural Language Processing:</span> NLTK</div>
+                                <div class="skill-item"><span>Computer Vision:</span> OpenCV, YOLO, Hugging Face Diffusers</div>
+                                <div class="skill-item"><span>Data Analysis:</span> NumPy, Pandas, Hugging Face Datasets, PySpark</div>
+                                <div class="skill-item"><span>Big Data:</span> Apache Spark, Hadoop</div>
+                                <div class="skill-item"><span>Data Visualization:</span> Matplotlib, Seaborn, Plotly, Power BI, Tableau, Google Looker Studio</div>
+                            </div>
+                        </div>
+                    </div>
+                
                     <div id="other" class="tab-content">
                         <div class="skills-section">
-                            <!-- <h3>Other</h3> -->
                             <div class="skills">
-                                <div class="skill-item"><span>IoT:</span> MQTT protocol, Raspberry Pi, Jetson Nano</div>
-                                <div class="skill-item"><span>Robotics:</span> ROS (Robot Operating System)</div>
+                                <div class="skill-item"><span>IDEs:</span> VS Code, IntelliJ IDEA, Jupyter Notebooks, PyCharm</div>
+                                <div class="skill-item"><span>Project Management:</span> Jira, Trello, Rally</div>
+                                <div class="skill-item"><span>Design Tools:</span> Figma, Adobe XD</div>
                                 <div class="skill-item"><span>Operating Systems:</span> MacOS, Ubuntu, Windows</div>
+                                <div class="skill-item"><span>IoT:</span> Raspberry Pi</div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
 
             </div>
             
